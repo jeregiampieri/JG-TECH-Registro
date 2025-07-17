@@ -14,11 +14,11 @@
 body {
     /* (32,7,7) */
     background: #602a03;
-    background: linear-gradient(90deg, rgb(35, 8, 8) 1%, rgb(0, 0, 0) 27%, rgb(32, 6, 6) 100%);
+    background: linear-gradient(90deg, rgb(25, 5, 5) 1%, rgb(0, 0, 0) 27%, rgb(25, 5, 5) 100%);
 }
 
 #inicio-sesion{
-    margin-top: 9%;
+    margin-top: 3.9%;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -29,7 +29,7 @@ body {
 .imagen{
     position: absolute;
     width: 500px;
-    height: 450px;
+    height: auto;
     /* top: 140px; */
     opacity: 0.3;
     z-index: -1;
