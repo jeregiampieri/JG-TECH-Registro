@@ -54,7 +54,7 @@ body {
 
 .icono{
     position: relative;
-    right: 22%;
+    right: 21%;
     color: white;
     font-size: 20px;
     cursor: pointer;
@@ -94,6 +94,7 @@ body {
     border-bottom: 1px solid white;
     color: white;
     outline: none;
+    width: 50%;
 }
 
 .inicio-sesion-botones{
