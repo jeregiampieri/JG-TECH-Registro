@@ -23,6 +23,7 @@ body {
     width: 100%;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5%;
 }
 
 .imagen{
@@ -40,7 +41,7 @@ body {
     flex-direction: column;
     width: 40%;
     padding: 20px 20px 50px 10px;
-    gap: 40px;
+    gap: 30px;
     border: 1px solid rgb(74, 74, 74);
     border-radius: 10px;
     width: 500px;
@@ -52,14 +53,11 @@ body {
 }
 
 .icono{
+    position: relative;
+    right: 22%;
     color: white;
     font-size: 20px;
     cursor: pointer;
-}
-
-.icono-usuario{
-    color: white;
-    font-size: 40px;
 }
 
 .inicio-sesion-titulo{
@@ -86,17 +84,16 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
 }
 
 .inicio-sesion-info input{
     padding: 10px;
     background-color: transparent;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    border: none;
     border-bottom: 1px solid white;
     color: white;
+    outline: none;
 }
 
 .inicio-sesion-botones{
