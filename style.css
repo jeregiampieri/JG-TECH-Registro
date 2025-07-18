@@ -52,30 +52,37 @@ body {
     /* background-color: red; */
 }
 
+.inicio-sesion-titulo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 39px;
+    border-bottom: 1px solid rgb(74, 74, 74);
+    padding: 0px 0px 5px 20px;
+}
+
 .icono{
     position: relative;
-    right: 21%;
+    right: 20%;
     color: white;
     font-size: 20px;
     cursor: pointer;
 }
 
-.inicio-sesion-titulo{
+.inicio-sesion-texto{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
-    border-bottom: 1px solid rgb(74, 74, 74);
-    padding: 0px 0px 5px 0px;
+    gap: 5px;
 }
 
-.inicio-sesion-titulo h2{
+.inicio-sesion-texto h2{
     color: white;
     font-weight: 500;
 }
 
-.inicio-sesion-titulo img{
-    width: 10%;
+.inicio-sesion-texto img{
+    width: 14.5%;
     filter: brightness(10);
 }
 
@@ -145,13 +152,13 @@ body {
     /* gap: 20px; */
 }
 
-.inicio-sesion-crear-cuenta p{
+.inicio-sesion-crear-cuenta a{
     /* (175,175,175) */
     color: rgb(94, 94, 94);
     cursor: pointer;
     transition: all 0.5s ease;
 }
 
-.inicio-sesion-crear-cuenta p:hover{
+.inicio-sesion-crear-cuenta a:hover{
     color: white;
 }
