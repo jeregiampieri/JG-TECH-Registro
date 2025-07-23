@@ -15,8 +15,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #602a03;
-    background: linear-gradient(90deg, rgb(25, 5, 5) 1%, rgb(0, 0, 0) 27%, rgb(25, 5, 5) 100%);
+    background: #2f0c04;
+    background: linear-gradient(90deg, rgb(14, 2, 2) 1%, rgb(0, 0, 0) 27%, rgb(14, 2, 2) 100%);
 }
 
 #inicio-sesion{
