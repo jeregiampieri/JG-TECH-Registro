@@ -12,13 +12,15 @@
 }
 
 body {
-    /* (32,7,7) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #602a03;
     background: linear-gradient(90deg, rgb(25, 5, 5) 1%, rgb(0, 0, 0) 27%, rgb(25, 5, 5) 100%);
 }
 
 #inicio-sesion{
-    margin-top: 4.3%;
+    margin-top: 12%;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -29,7 +31,7 @@ body {
 .imagen{
     position: absolute;
     width: 500px;
-    height: auto;
+    height: 600px;
     /* top: 140px; */
     opacity: 0.3;
     z-index: -1;
@@ -39,13 +41,12 @@ body {
 .contenedor-inicio-sesion{
     display: flex;
     flex-direction: column;
-    width: 40%;
     padding: 20px 20px 50px 10px;
     gap: 30px;
     border: 1px solid rgb(74, 74, 74);
     border-radius: 10px;
     width: 500px;
-    height: auto;
+    height: 600px;
     /* background-image: url(./img/imagen-PC.jpg);
     background-position: center;
     background-size: cover; */
@@ -58,7 +59,7 @@ body {
     align-items: center;
     gap: 39px;
     border-bottom: 1px solid rgb(74, 74, 74);
-    padding: 0px 0px 5px 20px;
+    padding: 0px 0px 5px 10px;
 }
 
 .icono{
